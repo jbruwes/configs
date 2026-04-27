@@ -46,7 +46,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "tsc"
   },
   "dependencies": {
     "@eslint/js": "^9.39.1",
